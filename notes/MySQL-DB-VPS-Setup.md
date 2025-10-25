@@ -53,6 +53,8 @@ mysql --version
 
 ```bash
 sudo systemctl start mysql
+```
+```bash
 sudo systemctl enable mysql
 ```
 
