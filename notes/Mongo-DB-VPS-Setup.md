@@ -261,16 +261,6 @@ Now you can:
 
 ## 👨‍💻 Author
 
-**Author:** Muzaffar Khan  
+**Muzaffar Khan**   
 **GitHub:** [https://github.com/muzaffar-khan](https://github.com/muzaffar-khan)  
 > 💬 “A properly configured database is the backbone of every reliable web app.”
-
----
-
-<p align="center">
-  ⭐ <b>Star this repo</b> if this helped you — it motivates me to create more guides!  
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/github/stars/muzaffar-khan/Deploying-Web-Application-on-VPS?style=social" alt="GitHub stars">
-</p>
