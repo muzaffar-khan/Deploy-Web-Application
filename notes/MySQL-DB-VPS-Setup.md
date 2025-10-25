@@ -1,5 +1,4 @@
-# 🍃 Setup MySQL on VPS (Ubuntu / Hostinger)
-
+<h1 align="center">🍃 Setup MySQL on VPS (Ubuntu / Hostinger)</h1>
 <p align="center">
   <em>Install, configure, and secure MySQL on your VPS — ready for any application.</em>
 </p>
