@@ -107,6 +107,6 @@ To contribute:
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/stars/muzaffar-khan/Deploying-Web-Application-on-VPS?style=social" alt="GitHub Repo stars">
+  <img src="https://img.shields.io/github/stars/muzaffar-khan/Deploy-Web-Application?style=social" alt="GitHub Repo stars">
 </p>
 
