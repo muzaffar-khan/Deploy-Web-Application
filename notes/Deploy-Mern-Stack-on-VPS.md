@@ -1,5 +1,4 @@
-# 🚀 Deploying a MERN Stack Project on Hostinger VPS
-
+<h1 align="center">🚀 Deploying a MERN Stack Project on Hostinger VPS</h1>
 <p align="center">
   <em>Complete Step-by-Step Deployment Guide with <strong>Nginx</strong>, <strong>PM2</strong>, and <strong>SSL</strong></em>
 </p>
