@@ -4,24 +4,26 @@
   <em>Step-by-step guides, deployment workflows, and hosting best practices for MERN, Next.js, and full-stack projects.</em>
 </p>
 
----
-
 <p align="center">
   <!-- Tech Badges -->
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
   <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white"/>
   <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
   <img src="https://img.shields.io/badge/PM2-2B037A?style=for-the-badge&logo=pm2&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Certbot-003A70?style=for-the-badge&logo=letsencrypt&logoColor=white"/>
+
+  
   <img src="https://img.shields.io/badge/Hostinger-673DE6?style=for-the-badge&logo=hostinger&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Terminal-000000?style=for-the-badge&logo=gnometerminal&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Certbot-003A70?style=for-the-badge&logo=letsencrypt&logoColor=white"/>
 </p>
 
----
-
+## 
 ## 📘 About This Repository
 
 This repository is a growing collection of **notes, guides, and tutorials** focused on:
@@ -33,7 +35,7 @@ This repository is a growing collection of **notes, guides, and tutorials** focu
 
 > 🧩 Every guide is built from real-world VPS deployment experience — tested, optimized, and beginner-friendly.
 
----
+##
 
 ## 🚀 Featured Guide
 
@@ -46,7 +48,7 @@ A full production-ready guide covering:
 
 📦 **Tech stack:** Node.js · Express  · Next.js · Nginx · PM2 · MongoDB Atlas / MySQL  
 
----
+##
 
 ## 📂 Repository Structure
 
@@ -60,7 +62,7 @@ repo-name/
 └── README.md                   # You're here!
 ````
 
----
+## 
 
 ## 📚 Upcoming Guides
 
@@ -68,7 +70,7 @@ repo-name/
 * 🔐 Securing VPS: **firewall, fail2ban, SSH keys**
 * 🌍 Multi-domain setup with **Nginx reverse proxy**
 
----
+##
 
 ## 🧠 What You’ll Learn
 
@@ -78,7 +80,7 @@ repo-name/
 * How to install and auto-renew **SSL certificates** using **Certbot**
 * How to make your full-stack apps **production-grade and secure**
 
----
+##
 
 ## 🤝 Contributing
 
@@ -90,13 +92,13 @@ To contribute:
 3. Add or improve guides
 4. Submit a **Pull Request**
 
----
+##
 
 ## 👨‍💻 Author
 
 
 **Muzaffar Khan**   
-**GitHub:** [Link](https://github.com/muzaffar-khan)
+[**GitHub**](https://github.com/muzaffar-khan)
 
 > 💬 “Good hosting + good code = great experience!”
 
