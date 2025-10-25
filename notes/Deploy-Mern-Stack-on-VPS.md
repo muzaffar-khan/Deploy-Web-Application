@@ -1,6 +1,20 @@
-## 🚀 Deploying a MERN Stack Project on Hostinger VPS  
-### Complete Step-by-Step Deployment Guide with **Nginx**, **PM2**, and **SSL**
+# 🚀 Deploying a MERN Stack Project on Hostinger VPS
+
+<p align="center">
+  <em>Complete Step-by-Step Deployment Guide with <strong>Nginx</strong>, <strong>PM2</strong>, and <strong>SSL</strong></em>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white"/>
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Hostinger-673DE6?style=for-the-badge&logo=hostinger&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
+</p>
+
 ---
+
 ## 🧰 Prerequisites
 Before starting, make sure you have:
 - ✅ A **Hostinger VPS**
@@ -29,15 +43,19 @@ sudo apt update && sudo apt upgrade -y
 ```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
 ```
+
 ```bash
 \. "$HOME/.nvm/nvm.sh"
 ```
+
 ```bash
 nvm install 25
 ```
+
 ```bash
 node -v
 ```
+
 ```bash
 npm -v
 ```
@@ -47,44 +65,57 @@ npm -v
 ```bash
 sudo apt install -y git
 ```
+
 ---
+
 ## 2️⃣ Set Up Database
 
-If you want to setup ***MySQL*** on VPS, follow this guide: [CLICK HERE→](./MySQL-DB-VPS-Setup.md)  
-If you want to setup ***MongoDB*** on VPS, follow this guide: [CLICK HERE→](./Mongo-DB-VPS-Setup.md)  
-Alternatively, you can use ***MongoDB Atlas*** and simply update your `.env` file with your connection string.  
+If you want to setup ***MySQL*** on VPS, follow this guide: [CLICK HERE→](./MySQL-DB-VPS-Setup.md)
+If you want to setup ***MongoDB*** on VPS, follow this guide: [CLICK HERE→](./Mongo-DB-VPS-Setup.md)
+Alternatively, you can use ***MongoDB Atlas*** and simply update your `.env` file with your connection string.
 
 ---
 
 ## 3️⃣ Deploy the Backend (Express + Node.js)
+
 **Clone your backend repo**
+
 ```bash
 mkdir -p /var/wwww
 ```
+
 ```bash
 cd /var/www
 ```
+
 ```bash
 git clone https://github.com/yourusername/your-repo.git
 ```
+
 ```bash
 cd your-repo/backend
 ```
 
 **Install dependencies**
+
 ```bash
 npm install
 ```
+
 **Create and configure `.env`**
+
 ```bash
 nano .env
 ```
+
 Paste your environment variables, then press `Ctrl + X`, `Y`, and `Enter` to save.
 
 **Install and start backend with PM2**
+
 ```bash
 npm install -g pm2
 ```
+
 ```bash
 pm2 start server.js --name project-backend
 ```
@@ -94,6 +125,7 @@ pm2 start server.js --name project-backend
 ```bash
 pm2 startup
 ```
+
 ```bash
 pm2 save
 ```
@@ -103,12 +135,15 @@ pm2 save
 ```bash
 sudo ufw status
 ```
+
 ```bash
 sudo ufw enable
 ```
+
 ```bash
 sudo ufw allow 'OpenSSH'
 ```
+
 ```bash
 sudo ufw allow 5000
 ```
@@ -160,6 +195,7 @@ pm2 start "npm start -- -p 8080" --name "process-name"
 ```bash
 pm2 startup
 ```
+
 ```bash
 pm2 save
 ```
@@ -209,9 +245,11 @@ sudo certbot renew --dry-run
 ```bash
 sudo apt install -y nginx
 ```
+
 ```bash
 sudo ufw allow 'Nginx Full'
 ```
+
 ---
 
 ### 🔹 FRONTEND SETUP
@@ -251,12 +289,15 @@ server {
 ```
 
 **Enable sites & restart Nginx**
+
 ```bash
 sudo ln -s /etc/nginx/sites-available/your-domain.com.conf /etc/nginx/sites-enabled/
 ```
+
 ```bash
 sudo nginx -t
 ```
+
 ```bash
 sudo systemctl restart nginx
 ```
@@ -282,15 +323,19 @@ server {
 ```
 
 **Enable sites & restart Nginx**
+
 ```bash
 sudo ln -s /etc/nginx/sites-available/your-domain2.com.conf /etc/nginx/sites-enabled/
 ```
+
 ```bash
 sudo nginx -t
 ```
+
 ```bash
 sudo systemctl restart nginx
 ```
+
 ##
 
 ### 🔹 BACKEND SETUP
@@ -333,12 +378,15 @@ server {
 ```bash
 sudo ln -s /etc/nginx/sites-available/api.your-domain.com.conf /etc/nginx/sites-enabled/
 ```
+
 ```bash
 sudo nginx -t
 ```
+
 ```bash
 sudo systemctl restart nginx
 ```
+
 ##
 
 ## ⚙️ Useful PM2 Commands
@@ -369,6 +417,7 @@ sudo systemctl restart nginx
 ##
 
 ## ✅ Done!
+
 Your MERN stack app is now live and secured with SSL!
 
 * 🌐 **Frontend:** [https://yourdomain1.com](https://yourdomain1.com)
@@ -376,9 +425,10 @@ Your MERN stack app is now live and secured with SSL!
 * 🔒 **Secured:** Nginx + Certbot + PM2
 
 ##
-## 👨‍💻 Author
-**Author:** Muzaffar Khan  
-**GitHub:** [https://github.com/muzaffar-khan](https://github.com/muzaffar-khan)
 
+## 👨‍💻 Author
+
+**Muzaffar Khan**  
+**GitHub:** [https://github.com/muzaffar-khan](https://github.com/muzaffar-khan)
 
 > 📝 **Tip:** Always keep your system and dependencies up to date to ensure better performance and security.
