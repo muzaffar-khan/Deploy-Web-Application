@@ -70,9 +70,9 @@ sudo apt install -y git
 
 ## 2️⃣ Set Up Database
 
-If you want to setup ***MySQL*** on VPS, follow this guide: [CLICK HERE→](./MySQL-DB-VPS-Setup.md)
-If you want to setup ***MongoDB*** on VPS, follow this guide: [CLICK HERE→](./Mongo-DB-VPS-Setup.md)
-Alternatively, you can use ***MongoDB Atlas*** and simply update your `.env` file with your connection string.
+If you want to setup ***MySQL*** on VPS, follow this guide: [CLICK HERE→](./MySQL-DB-VPS-Setup.md)  
+If you want to setup ***MongoDB*** on VPS, follow this guide: [CLICK HERE→](./Mongo-DB-VPS-Setup.md)  
+Alternatively, you can use ***MongoDB Atlas*** and simply update your `.env` file with your connection string.  
 
 ---
 
