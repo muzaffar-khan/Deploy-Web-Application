@@ -109,6 +109,6 @@ To contribute:
 
 <p align="center">
 
-  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/muzaffar-khan/Deploy-Web-Application" alt="Github Repo Stars">
+  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/muzaffar-khan/Deploy-Web-Application" title="Github Repo Stars">
 </p>
 
