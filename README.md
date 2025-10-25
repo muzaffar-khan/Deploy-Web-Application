@@ -106,7 +106,9 @@ To contribute:
   ⭐ <b>Star this repo</b> if you find it helpful — it motivates me to share more tutorials!  
 </p>
 
+
 <p align="center">
-  <img src="https://img.shields.io/github/stars/muzaffar-khan/Deploy-Web-Application?style=social" alt="GitHub Repo stars">
+
+  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/muzaffar-khan/Deploy-Web-Application" alt="Github Repo Stars">
 </p>
 
