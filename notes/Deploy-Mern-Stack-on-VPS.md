@@ -7,7 +7,7 @@ Before starting, make sure you have:
 - ✅ **SSH access** to your VPS
 - ✅ A **domain name** (and subdomains if you have multiple apps)
 - ✅ Your **MERN project repo** on GitHub (frontend & backend)
-- ✅ (Optional) MongoDB Atlas or MongoDB installed on the VPS
+- ✅ (Optional) MongoDB Atlas or MongoDB/MySQL installed on the VPS
 
 ---
 
