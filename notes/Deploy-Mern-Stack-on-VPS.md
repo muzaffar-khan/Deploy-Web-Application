@@ -34,7 +34,16 @@ ssh root@your_vps_ip
 **Update & upgrade system**
 
 ```bash
-sudo apt update && sudo apt upgrade -y
+sudo apt update
+```
+```bash
+sudo apt list --upgradable
+```
+```bash
+sudo apt upgrade
+```
+```bash
+sudo apt dist-upgrade
 ```
 
 **Install Node.js & npm using NVM**
